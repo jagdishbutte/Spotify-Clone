@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+   width: 65px;   
+   padding: 0 5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;;
+    display: flex;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 20px;
+    padding: 30px;
+    background-image: url('Images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 10px;
+    
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitemContainer{
+    margin-top: 20px;
+}
+
+
+.songItem{
+    height: 45px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    align-items: center;
+    margin: 10px 20px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.songItem img{
+    width: 40px;
+    height: 40px;
+    padding: 0 5px;
+    border-radius: 30px;
+}
+
+.timestamp{
+    width: 40px;
+    margin: 0 20px;
+    
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left : 10vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity is ease-in;
+    margin-right: 10px;
+}
